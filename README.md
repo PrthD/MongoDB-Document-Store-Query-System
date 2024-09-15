@@ -1,19 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/Fozs_Okj)
-# CMPUT 291 Mini Project 2 - Winter 2024  
-Group member names and ccids  
-* hetbhara, Het Bharatkumar Patel
-* kjemhus, Nole Kjemhus
-* dmhoang, Manh Duong Hoang
-* pdadhani, Parth Dadhania
-
-# Group work break-down strategy
-* Manh Duong Hoang (SID:1753180): Implemented task1_build.py and query 3, 4 of task1_query.py. Reviewed others' code, partially filled out report file.  (Time spent: 2 days)
-* Het Bharatkumar Patel (SID:1742431): Implemented parts of task2_build.py and task2_query.py. Reviewed others' code, partially filled out report file.  (Time spent: 4 days)
-* Parth Dadhania (SID: 1722612): Implemented parts of task2_build.py & task2_query.py. Reviewed others' code, partially filled out report file.  (Time spent: 4 days)
-* Nole Kjemhus (SID: 1742095): Implemented main, query 1, and query 2 of task1_query.py. Reviewed others' code, partially filled out report file.  (Time spent: 2 days)
-
-Method of coordination to keep the project on track: Discord group chat + keeping track of each other.
-
 # Code execution guide
 > System Overview:
 The system is designed to load and query data from JSON files into MongoDB collections, analyzing the impact of different document models and indexing on query performance. It consists of four main scripts:
@@ -51,9 +35,3 @@ python3 task1_query.py portNumber
      * Create collection: db.createCollection(name, options)
      * Drop collection: db.COLLECTION_NAME.drop()
      * Query collection: db.COLLECTION_NAME.find()
-
-# AI Agents
-We have not used any AI tools for the completion of this project.
-
-# Collaborations
-We did not collaborate with anyone else to complete this project.
