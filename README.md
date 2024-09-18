@@ -22,8 +22,8 @@ This project is designed to load and query data from JSON files into MongoDB col
      - `task2_build.py`
      - `task1_query.py`
      - `task2_query.py`
-     - `messages.json`
-     - `senders.json`
+     - `messages_senders_JSON_zip.7z`
+   - Extract the contents of messages_senders_JSON_zip.7z to obtain messages.json and senders.json.
 
 2. **Initiate MongoDB Server**:
    - Create a data directory:
