@@ -1,4 +1,4 @@
-# MongoDB-Document-Store-Query-System
+# MongoDB Document Store Query System
 
 ## Project Overview
 This project is designed to load and query data from JSON files into MongoDB collections, analyzing the impact of different document models (normalized vs. embedded) and indexing on query performance. The system is composed of four main scripts:
