@@ -2,12 +2,23 @@
 # MongoDB Document Store Query System
 
 ## Project Overview
-This project is designed to load and query data from JSON files into MongoDB collections, analyzing the impact of different document models (normalized vs. embedded) and indexing on query performance. The system is composed of four main scripts located in the `/src/` directory:
+This project is designed to load and query data from JSON files into MongoDB collections, analyzing the impact of different document models (normalized vs. embedded) and indexing on query performance. The system is composed of four main scripts:
 
 - **task1_build.py**: Builds a normalized document store with separate collections for messages and senders.
 - **task2_build.py**: Builds an embedded document store with sender information embedded within each message document.
 - **task1_query.py**: Executes and analyzes queries on the normalized document store.
 - **task2_query.py**: Executes and analyzes queries on the embedded document store.
+
+## Project Structure
+
+- **/src/**:
+  - `task1_build.py`
+  - `task2_build.py`
+  - `task1_query.py`
+  - `task2_query.py`
+- **/resources/**
+  - `messages_senders_JSON_zip.7z`
+- `README.md`
 
 ## Prerequisites
 - Python 3.x
@@ -100,20 +111,6 @@ You can explore the MongoDB database using the MongoDB client:
     db.COLLECTION_NAME.find()
     ```
 
-## Project Structure
-
-```
-/src/
-   task1_build.py
-   task2_build.py
-   task1_query.py
-   task2_query.py
-/resources/
-   messages_senders_JSON_zip.7z
-/README.md
-```
-
 ## Conclusion
 
 This project demonstrates a comparison between normalized and embedded MongoDB document stores, highlighting the impact of document models and indexing on query performance. By examining the results from both approaches, this system provides valuable insights for designing MongoDB schemas for real-world applications.
-
